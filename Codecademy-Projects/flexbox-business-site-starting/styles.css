@@ -1,0 +1,210 @@
+/* universal styles*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  background-color: #d6ebdcf7;
+  background-image: url(img/main.jpg) ;
+}
+
+/* header */
+header{
+  height: 9rem;
+  display: flex;
+  margin: 0.1rem 0 3rem ;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbfafad2;
+  padding: 0 0.5rem;
+  border-bottom: 0.2rem solid #000;
+}
+
+header img{
+  height: 8rem;
+  border: 0.2rem solid black;
+}
+
+header nav ul{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+header ul a{
+  text-decoration: overline;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+header ul a:hover {
+  color: rgb(39, 162, 117);
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+header ul li{
+  list-style: none;
+}
+
+header div a{
+color: rgb(39, 162, 117);
+font-weight: bold;
+}
+
+/* main aside */
+aside img{
+  float: right;
+  height: 50rem;
+}
+
+/* main */
+main{
+  height: 15rem;
+  text-align: center;
+  line-height: 2rem;
+  color: #fff;
+  margin-left: 3rem;
+}
+
+main p, li, h4{
+  font-size: 1.2rem;
+}
+
+main div{
+  background-color: #000000;
+  padding: 3rem;
+  border: 0.10rem solid #fff;
+}
+
+/* contact */
+#contact{
+  height: 10rem;
+  margin: 3.9rem;
+}
+
+#contact h3{
+  font-size: 2rem;
+  text-align: center;
+}
+
+address{
+  text-align: center;
+  color: #000000;
+  font-weight: bolder;
+  line-height: 2rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+}
+
+/* section services */
+main, section, h1{
+  padding-bottom: 3rem;
+}
+
+section{
+  padding: 3rem;
+  background-color: #fff;
+  color: #000;
+  border: 0.09rem solid #000;
+  max-width: 52%;
+  text-align: center;
+}
+
+section ul {
+  display: flex;
+  justify-content: center;
+}
+
+section li{
+  list-style: none;
+  display: flex;
+  border: 0.1rem solid #000; 
+  padding: 0.9rem;
+  color: rgb(39, 162, 117);
+}
+
+section li:nth-child(2),section li:nth-child(4) {
+  color: #000;
+  background-color: rgba(39, 162, 117, 0.192);
+}
+
+/* reviews 
+#review{
+  margin: 5rem 8rem;
+  font-size: 1.3rem;
+  font-weight:lighter;
+  display: flex;
+  justify-content: center;
+  line-height: 2.1rem;
+  background-color: #dd6e06c3;
+  padding: 1rem;
+  border: 0.05rem solid #fff;
+  border-radius: 0.5rem;
+}*/
+
+/* reviews */
+  #review{
+    height: 20rem;
+    background-color: #504f4fab;
+    color: #fff;
+    margin: 6rem 0 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 0 4rem;
+  }
+
+  #review p{
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 2.5rem;
+  }
+
+  #review .author{
+    margin: 14rem 2rem 0 0 ;
+    border-bottom: 0.1rem solid #fff;
+    color: #000;
+  }
+  
+/* team */
+.team{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem 3rem;
+  gap: 5rem;
+}
+
+.team h2{
+  border-bottom: 0.3rem solid #d0e41a;
+}
+
+.team figure img{
+  height: 20rem;
+}
+
+.team .border{
+  border: 0.2rem solid #d0e41a;
+  width: 17rem;
+}
+
+.team figure figcaption{
+  font-size: 1.3rem;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+/* footer */
+footer{
+  height: 1rem;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+}
